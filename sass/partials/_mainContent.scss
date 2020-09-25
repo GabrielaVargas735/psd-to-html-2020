@@ -1,0 +1,49 @@
+#box-benefits-list {
+    list-style: $list;
+    margin: $zero;
+    padding: $zero; 
+}  
+#box-benefits-list li {
+    padding-left: 30px;
+    background-image: $url;
+    background-repeat: $repeat;
+    background-position: top left; 
+}
+.box {
+    width: 280px;
+    float: $position3; 
+}
+.box + .box {
+    margin-left: 60px; 
+}
+.box-link {
+    color: $color4;
+    font-style: italic;
+    font-size: 12px;
+    text-decoration: $list; 
+}
+//Nesting
+.box-img {
+    width: 214.5px;
+    float: $position3; 
+    a{
+        display: block;
+    }
+    img{
+        display: block;
+    }
+    + .box-img {
+        margin-left: 34px;
+    }
+}
+  
+#blog-updates {
+    width: 660px;
+    float: $position3;
+    margin-right: 80px; 
+}
+#connect-with-us {
+    width: 220px;
+    float: $position2;
+} 
+  

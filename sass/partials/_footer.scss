@@ -1,0 +1,36 @@
+#footer {
+    background-color: $color;
+    padding: 30px 0; 
+}
+#footer .wrapper {
+    position: $position; 
+}
+#footer p {
+    margin-bottom: $zero; 
+}
+#footer-list {
+    list-style: $list;
+    margin: $zero;
+    padding: $zero; 
+}
+//nesting
+#footer-list li {
+    float: $position3;
+    + li::before {
+        content: "|";
+        color: $color1;
+    } 
+    + li {
+        margin-left: 6px; 
+    }
+}
+#footer-list a {
+    color: $color1;
+    font-size: 12px; 
+}
+.footer-logo {
+    height: 64px;
+    position: absolute;
+    right: $zero;
+    top: -8px; 
+}

@@ -1,0 +1,30 @@
+@import "variables";
+/* Global */
+body {
+  font-family: $fonts;
+  border-top: 17px solid $color4;
+  margin: $zero; 
+  }
+h2 {
+  font-size: 18px;
+  padding-left: 30px;
+  background-position: 0 7px; 
+  }
+h3 {
+  font-size: 12px;
+  padding-left: 23px;
+  background-size: 8px;
+  background-position: 0 5px; 
+}
+h2, h3 {
+  text-transform: $capitalletter;
+  color: $color4;
+  padding-bottom: 12px;
+  background-image: url("../img/arrow.png");
+  background-repeat: $repeat; 
+}
+p{
+  color: $color1;
+  font-size: 12px;
+  line-height: 15px; 
+}

@@ -1,0 +1,35 @@
+.wrapper {
+    width: 960px;
+    margin: 0 auto; 
+}
+.title-border-bottom {
+    border-bottom: 6px solid $color4; 
+}
+  
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table; 
+}
+.block-border {
+    padding: 20px 0 15px;
+    border-bottom: 1px solid $color5; 
+}
+.link-arrow {
+    color: $color3;
+    font-size: 12px;
+    font-weight: bold;
+    padding-left: 23px;
+    text-decoration: $list;
+    text-transform: $capitalletter;
+    position: $position; 
+}
+.link-arrow:hover {
+    text-decoration: underline; 
+}
+.link-arrow-img {
+    width: 9px;
+    position: $position2;
+    left: $zero;
+    top: 4px; 
+}
